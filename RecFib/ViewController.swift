@@ -26,7 +26,9 @@ class ViewController: UIViewController {
     }
     
     func SetResult(n: Int) {
-        self.result.text = String(format:"Fib(%ld) = %ld", input.text.toInt()!, n)
+        let i = input.text.toInt()!
+        self.result.text = String(format:"Fib(%ld) = %ld", i, n)
+        self.input.text = String(i+1)
     }
 
     @IBAction func objcRecursion(sender: AnyObject) {
