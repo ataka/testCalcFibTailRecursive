@@ -24,18 +24,22 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func SetResult(n: Int) {
+        self.result.text = String(format:"Fib(%ld) = %ld", input.text.toInt()!, n)
+    }
 
     @IBAction func objcRecursion(sender: AnyObject) {
-        self.result.text = String(self.objcRec.fib(self.input.text.toInt()!))
+        SetResult(self.objcRec.fib(self.input.text.toInt()!))
     }
     @IBAction func objcTailRecursion(sender: AnyObject) {
-        self.result.text = String(self.objcRec.fibTail(self.input.text.toInt()!))
+        SetResult(self.objcRec.fibTail(self.input.text.toInt()!))
     }
     @IBAction func swiftRecursion(sender: AnyObject) {
-        self.result.text = String(self.swiftRec.fib(self.input.text.toInt()!))
+        SetResult(self.swiftRec.fib(self.input.text.toInt()!))
     } 
     @IBAction func swiftTailRecursion(sender: AnyObject) {
-        self.result.text = String(self.swiftRec.fibTail(self.input.text.toInt()!))
+        SetResult(self.swiftRec.fibTail(self.input.text.toInt()!))
     }
 
 
