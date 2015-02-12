@@ -35,6 +35,7 @@ class ViewController: UIViewController {
         self.result.text = String(self.swiftRec.fib(self.input.text.toInt()!))
     } 
     @IBAction func swiftTailRecursion(sender: AnyObject) {
+        self.result.text = String(self.swiftRec.fibTail(self.input.text.toInt()!))
     }
 
 
