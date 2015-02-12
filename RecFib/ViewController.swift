@@ -12,10 +12,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var input: UITextField!
     @IBOutlet weak var result: UILabel!
     var objcRec: RecFibObjc!
+    var swiftRec: RecFibSwift!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.objcRec = RecFibObjc()
+        self.swiftRec = RecFibSwift()
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,6 +32,7 @@ class ViewController: UIViewController {
         self.result.text = String(self.objcRec.fibTail(self.input.text.toInt()!))
     }
     @IBAction func swiftRecursion(sender: AnyObject) {
+        self.result.text = String(self.swiftRec.fib(self.input.text.toInt()!))
     } 
     @IBAction func swiftTailRecursion(sender: AnyObject) {
     }

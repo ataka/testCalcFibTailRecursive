@@ -14,6 +14,7 @@
 		677D4D081A8CF73200F200B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 677D4D061A8CF73200F200B2 /* LaunchScreen.xib */; };
 		677D4D141A8CF73200F200B2 /* RecFibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677D4D131A8CF73200F200B2 /* RecFibTests.swift */; };
 		677D4D221A8CFB1E00F200B2 /* RecFibObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 677D4D211A8CFB1E00F200B2 /* RecFibObjc.m */; };
+		677D4D241A8D02F400F200B2 /* RecFibSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677D4D231A8D02F400F200B2 /* RecFibSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		677D4D1D1A8CFA4F00F200B2 /* RecFib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecFib-Bridging-Header.h"; sourceTree = "<group>"; };
 		677D4D201A8CFB1E00F200B2 /* RecFibObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecFibObjc.h; sourceTree = "<group>"; };
 		677D4D211A8CFB1E00F200B2 /* RecFibObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecFibObjc.m; sourceTree = "<group>"; };
+		677D4D231A8D02F400F200B2 /* RecFibSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecFibSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				677D4D011A8CF73200F200B2 /* Main.storyboard */,
 				677D4D201A8CFB1E00F200B2 /* RecFibObjc.h */,
 				677D4D211A8CFB1E00F200B2 /* RecFibObjc.m */,
+				677D4D231A8D02F400F200B2 /* RecFibSwift.swift */,
 				677D4D041A8CF73200F200B2 /* Images.xcassets */,
 				677D4D061A8CF73200F200B2 /* LaunchScreen.xib */,
 				677D4CFB1A8CF73200F200B2 /* Supporting Files */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677D4D241A8D02F400F200B2 /* RecFibSwift.swift in Sources */,
 				677D4D001A8CF73200F200B2 /* ViewController.swift in Sources */,
 				677D4CFE1A8CF73200F200B2 /* AppDelegate.swift in Sources */,
 				677D4D221A8CFB1E00F200B2 /* RecFibObjc.m in Sources */,
