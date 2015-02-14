@@ -21,7 +21,7 @@ class RecFibSwift: NSObject {
     func fibTail(n: Int) -> Int {
         return fibInner(n, a:1, b:0);
     }
-    func fibInner (m: Int, a: Int, b: Int) -> Int {
+    private func fibInner (m: Int, a: Int, b: Int) -> Int {
         if (m == 0) {
             return b
         } else {
